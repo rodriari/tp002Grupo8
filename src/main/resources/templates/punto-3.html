@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Punto3</title>
+</head>
+<body>
+  <h1>Nombre y apellido del alumno <span th:text="${NOMBRE}"></span> <span th:text="${APELLIDO}"></span></h1>
+  <h3>Su Libreta Universitaria es <span th:text="${LIBRETA}"></span></h3>
+  <h3>Su promedio es <span th:text="${PROMEDIO}"></span></h3>
+  <h3>Su nota maxima es <span th:text="${MAXIMA}"></span></h3>
+  <h2><a href="/home">Menu</a></h2>
+</body>
+</html>
